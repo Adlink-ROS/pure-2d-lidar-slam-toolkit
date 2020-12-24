@@ -1,0 +1,15 @@
+repositories:
+  map2gazebo:
+    type: git
+    url: https://github.com/H-HChen/map2gazebo.git
+    version: foxy-devel
+  rf2o_laser_odometry:
+    type: git
+    url: https://github.com/H-HChen/rf2o_laser_odometry.git
+    version: foxy-devel
+  neuronbot2:
+    type: git
+    url: https://github.com/Adlink-ROS/neuronbot2.git
+    version: foxy-devel
+  
+    
