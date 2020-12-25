@@ -34,7 +34,7 @@ endif()
 
 # Install launch files.
 install(DIRECTORY
-  launch rviz
+  launch
   DESTINATION share/${PROJECT_NAME}/
 )
 

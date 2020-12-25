@@ -82,9 +82,9 @@ The meth file 'map.stl' will be stored at current directory.
  
 4. Copy gazebo model to neuronbot2 package
 ```
-cp map.stl ./src/pure-2d-lidar-slam-toolkit/map/meshs/
+cp map.stl ./src/pure-2d-lidar-slam-toolkit/map/meshes/
 cp -rf ./src/pure-2d-lidar-slam-toolkit/map ./src/pure-2d-lidar-slam-toolkit/src/neuronbot2/neuronbot2_gazebo/models/
-cp ./src/pure-2d-lidar-slam-toolkit/map.model ./src/pure-2d-lidar-slam-toolkit/src/neuronbot2/neuronbot2_gazebo/world/
+cp ./src/pure-2d-lidar-slam-toolkit/worlds/map.model ./src/pure-2d-lidar-slam-toolkit/src/neuronbot2/neuronbot2_gazebo/worlds/
 ```
 5. Launch gazebo simulation
 ```
