@@ -11,5 +11,7 @@ repositories:
     type: git
     url: https://github.com/Adlink-ROS/neuronbot2.git
     version: foxy-devel
-  
-    
+  slam_gmapping:
+    type: git
+    url: https://github.com/Adlink-ROS/slam_gmapping
+    version: ff3daf1876a2a4aef993260cc28f627528b16247
