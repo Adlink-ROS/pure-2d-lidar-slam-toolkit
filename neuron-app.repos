@@ -15,3 +15,7 @@ repositories:
     type: git
     url: https://github.com/Adlink-ROS/slam_gmapping
     version: ff3daf1876a2a4aef993260cc28f627528b16247
+  sick_scan2:
+    type: git
+    url: https://github.com/SICKAG/sick_scan2.git
+    version: cdb099fcc944d3dc598b83c9368d935d9610b1c4
