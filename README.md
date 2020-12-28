@@ -26,10 +26,10 @@
     source ~/pureslam_ros2_ws/install/local_setup.bash
     ```
 ## Parameter setting
-    ```
-    vim ~/pureslam_ros2_ws/src/sick_scan2/config/sick_tim_7xxS.yaml
-    vim ~/pureslam_ros2_ws/src/map2gazebo/config/default.yaml 
-    ```
+```
+vim ~/pureslam_ros2_ws/src/sick_scan2/config/sick_tim_7xxS.yaml
+vim ~/pureslam_ros2_ws/src/map2gazebo/config/default.yaml 
+```
 ### SICK Driver: sick_tim_7xxS.yaml: 
 
 1. To change IP in launch file, please modify value of 'hostname'.
