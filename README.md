@@ -83,7 +83,7 @@ map2gazebo:
     ```
     ros2 launch pure_lidarslam_toolkit map_to_mesh.launch.py 
     ```
-The meth file 'map.stl' will be stored at current directory.
+    The meth file 'map.stl' will be stored at current directory.
  
 4. Copy gazebo model to neuronbot2 package and rebuild the package
     ```
