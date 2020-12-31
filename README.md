@@ -94,5 +94,6 @@ map2gazebo:
     ```
 5. Launch gazebo simulation
     ```
+    source ~/pureslam_ros2_ws/install/local_setup.bash
     ros2 launch neuronbot2_gazebo neuronbot2_world.launch.py world_model:=map.model
     ```
