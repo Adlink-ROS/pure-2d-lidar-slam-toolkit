@@ -102,13 +102,13 @@ map2gazebo:
 
 After mapping is done, save your map and turn off SLAM.
 ```
-ros2 run nav2_map_server map_saver_cli -f <map_dir>/<map_name> --ros-args -p save_map_timeout:=10000
+ros2 run nav2_map_server map_saver_cli -f <map_dir>/map --ros-args -p save_map_timeout:=10000
 ```
 
 Activate map to mesh converter, and remember to set file name of map and export directory in absolute path format.
 ```
 cd ~/pureslam_ros2_ws/
-python3 src/map2gazebo/map2gazebo/map2gazebo_offline.py --map_dir /path/to/map/mememan.pgm --export_dir /path/to/export_dir
+python3 src/map2gazebo/map2gazebo/map2gazebo_offline.py --map_dir /path/to/map/map.pgm --export_dir /path/to/export_dir
 ```
 
 
