@@ -79,7 +79,7 @@ map2gazebo:
     ros2 launch pure_lidarslam_toolkit lidar_odometry.launch.py 
     ```
 
-3. Launch map converter, or Do offline conversion.
+3. Launch map converter, or [Do offline conversion](https://github.com/H-HChen/pure-2d-lidar-slam-toolkit#offline-map-conversion).
     ```
     ros2 launch pure_lidarslam_toolkit map_to_mesh.launch.py 
     ```
@@ -105,7 +105,7 @@ After mapping is done, save your map and turn off SLAM.
 ros2 run nav2_map_server map_saver_cli -f <map_dir>/<map_name> --ros-args -p save_map_timeout:=10000
 ```
 
-Activate map to mesh converter, and remember to set map file name and export directory in absolute path.
+Activate map to mesh converter, and remember to set file name of map and export directory in absolute path format.
 ```
 cd ~/pureslam_ros2_ws/
 python3 src/map2gazebo/map2gazebo/map2gazebo_offline.py --map_dir /path/to/map/mememan.pgm --export_dir /path/to/export_dir
