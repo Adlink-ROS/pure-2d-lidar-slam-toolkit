@@ -30,4 +30,4 @@ repositories:
   pure-2d-lidar-slam-toolkit :
     type: git
     url: https://github.com/H-HChen/pure-2d-lidar-slam-toolkit.git
-    version: main
+    version: foxy-devel
