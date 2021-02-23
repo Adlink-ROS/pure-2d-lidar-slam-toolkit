@@ -1,11 +1,11 @@
 repositories:
   map2gazebo:
     type: git
-    url: https://github.com/H-HChen/map2gazebo.git
+    url: https://github.com/Adlink-ROS/map2gazebo.git
     version: foxy-devel
   rf2o_laser_odometry:
     type: git
-    url: https://github.com/H-HChen/rf2o_laser_odometry.git
+    url: https://github.com/Adlink-ROS/rf2o_laser_odometry.git
     version: foxy-devel
   neuronbot2:
     type: git
@@ -29,5 +29,5 @@ repositories:
     version: 3ab9a880e71b6ecaaeec8948c13881487500d3e7
   pure-2d-lidar-slam-toolkit :
     type: git
-    url: https://github.com/H-HChen/pure-2d-lidar-slam-toolkit.git
+    url: https://github.com/Adlink-ROS/pure-2d-lidar-slam-toolkit.git
     version: foxy-devel
