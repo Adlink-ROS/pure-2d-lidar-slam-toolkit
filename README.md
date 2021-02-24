@@ -5,7 +5,7 @@
     ```
     mkdir ~/pureslam_ros2_ws/src -p
     cd ~/pureslam_ros2_ws/
-    wget https://raw.githubusercontent.com/H-HChen/pure-2d-lidar-slam-toolkit/main/neuron-app.repos
+    wget https://raw.githubusercontent.com/adlink-ros/pure-2d-lidar-slam-toolkit/main/neuron-app.repos
     vcs import src < neuron-app.repos 
 
     ```
@@ -79,7 +79,7 @@ map2gazebo:
     ros2 launch pure_lidarslam_toolkit lidar_odometry.launch.py 
     ```
 
-3. Launch map converter, or [Do offline conversion](https://github.com/H-HChen/pure-2d-lidar-slam-toolkit#offline-map-conversion).
+3. Launch map converter, or [Do offline conversion](https://github.com/adlink-ros/pure-2d-lidar-slam-toolkit#offline-map-conversion).
     ```
     ros2 launch pure_lidarslam_toolkit map_to_mesh.launch.py 
     ```
