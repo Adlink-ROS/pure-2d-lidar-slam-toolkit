@@ -1,0 +1,33 @@
+repositories:
+  map2gazebo:
+    type: git
+    url: https://github.com/Adlink-ROS/map2gazebo.git
+    version: foxy-devel
+  rf2o_laser_odometry:
+    type: git
+    url: https://github.com/Adlink-ROS/rf2o_laser_odometry.git
+    version: foxy-devel
+  neuronbot2:
+    type: git
+    url: https://github.com/Adlink-ROS/neuronbot2.git
+    version: foxy-devel
+  slam_gmapping:
+    type: git
+    url: https://github.com/Adlink-ROS/slam_gmapping
+    version: ff3daf1876a2a4aef993260cc28f627528b16247
+  sick_scan2:
+    type: git
+    url: https://github.com/SICKAG/sick_scan2.git
+    version: cdb099fcc944d3dc598b83c9368d935d9610b1c4
+  serial:
+    type: git
+    url: https://github.com/Adlink-ROS/serial.git
+    version: f7871723cd631072a5fda6289a8d689dfb53b57d
+  rplidar_ros:
+    type: git
+    url: https://github.com/Adlink-ROS/rplidar_ros.git
+    version: 3ab9a880e71b6ecaaeec8948c13881487500d3e7
+  pure-2d-lidar-slam-toolkit :
+    type: git
+    url: https://github.com/Adlink-ROS/pure-2d-lidar-slam-toolkit.git
+    version: foxy-devel

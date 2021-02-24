@@ -1,0 +1,8 @@
+# pip install -r requirements.txt
+
+trimesh
+numpy
+pycollada
+scipy
+networkx
+opencv-contrib-python 
