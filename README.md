@@ -41,7 +41,7 @@ We have tested the toolkit by using SICK LiDARs on ADLINK ROScube. It's possible
 vim ~/pureslam_ros2_ws/src/sick_scan2/config/sick_tim_7xxS.yaml
 vim ~/pureslam_ros2_ws/src/map2gazebo/config/default.yaml 
 ```
-### SICK Driver: sick_tim_7xxS.yaml: 
+**SICK Driver: sick_tim_7xxS.yaml:**
 
 1. To change IP in launch file, please modify value of 'hostname'.
 
@@ -62,7 +62,7 @@ sick_scan2:
     ```
     nc -z -v -w5 192.168.1.2 2112
     ```
-### Map2gazebo: default.yaml
+**Map2gazebo: default.yaml**
 
 You can change height of boxes and map threshold. **Not recommend to modify export_dir.**
 ```
@@ -124,11 +124,8 @@ map2gazebo:
 
     ```
     cp map.stl ~/pureslam_ros2_ws/src/pure-2d-lidar-slam-toolkit/map/meshes/
-
     cp -rf ~/pureslam_ros2_ws/src/pure-2d-lidar-slam-toolkit/map ~/pureslam_ros2_ws/src/neuronbot2/neuronbot2_gazebo/models/
-
-    cp ~/pureslam_ros2_ws/src/pure-2d-lidar-slam-toolkit/worlds/map.model ~/pureslam_ros2_ws/src/neuronbot2/neuronbot2_gazebo/worlds/
-
+    cp ~/pureslam_ros2_ws/src/pure-2d-lidar-slam-toolkit/worlds/map.model ~/pureslam_ros2_ws/src/neuronbot2/neuronbot2_gazebo/worlds/    
     colcon build --symlink-install
     ```
 3. Launch Gazebo simulation to verify the result
