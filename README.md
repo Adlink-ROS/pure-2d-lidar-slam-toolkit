@@ -1,6 +1,6 @@
 # pure-2d-lidar-slam-toolkit
 
-This SLAM Toolkit helps users to try SLAM by using only a LiDAR and a ROScube without having a real robot. Furthermore, the toolkit is able to convert a PGM map file into a Gazebo world, give users the possiblity to do Navigation simulation according to their environment.
+This SLAM Toolkit helps users to try SLAM by using only a LiDAR without having a real robot. Furthermore, the toolkit is able to convert a PGM map file into a Gazebo world, give users the possiblity to do Navigation simulation according to their environment.
 
 In general, the toolkit offers:
 
